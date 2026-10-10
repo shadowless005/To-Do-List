@@ -1,21 +1,33 @@
-Hello!
+# Python To-Do List Application
 
-This python project introduces a functional to-do list application that users can use to add, view, mark as done, delete and exit the application.
+A command-line application for managing daily tasks using Python.
 
-When opening the application a menu will be show with a numeric value for each option that is listed (1-5)
+## Features
 
-Option '1' allows the user to add a new task to the list .
+- Add tasks
+- View tasks and their completion status
+- Mark tasks as done
+- Delete tasks
+- Handle invalid menu choices and task numbers
+- Exit the application
 
-Option '2' will print the current to-do list the user has made and will show whether the task is done or not with message "Done!" or " Not Done."
+Tasks are stored in a Python list of dictionaries during the session. They are not saved after the application closes.
 
-Option '3' allows the user to mark the task as "DONE!" and to check just enter 2 view the list again and user will see the "DONE!" message.
+## How to Run
 
-Option '4' allows user to delete a current task from the list.
+1. Install Python 3.
+2. Clone or download this repository.
+3. Open a terminal in the project folder.
+4. Run:
 
-Option '5' lets user exit list by printing a message "Goodbye!"
+```bash
+python3 main.py
+```
 
-If user enters invalid number a message will be show to enter a correct numeric value (1-5)
+Use the numbered menu to select an action. When completing or deleting a task, enter its displayed task number.
 
-If user selects to delete a task that does not exist a messeage "No tasks yet." will be printed.
+No external packages are required.
 
-If user selects '2' to view the list but there is no tasks added a message "No tasks yet." will be printed
+## Author
+
+Matthew Shin
